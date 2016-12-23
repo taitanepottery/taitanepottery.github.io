@@ -76,11 +76,11 @@
 
    });
 $(window).load(function(){
-    $('img').on('click',function()
+    $('.portfolio-button').on('click',function()
                 {
                     console.log("pushed");
-                  console.log($(this).attr('src'));
-			$('#modal-img').attr('src', $(this).attr('src'));
+                  console.log($(this).find('img').attr('src'));
+			$('#modal-img').attr('src', $(this).find('img').attr('src'));
                   $('#modal-text').innerHTML="Whatever text!";
 
                   $("#hider").click()
