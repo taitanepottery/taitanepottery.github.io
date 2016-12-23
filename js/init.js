@@ -23,13 +23,13 @@
 
    // main directions
    map = new GMaps({
-      el: '#map', lat: 14.553533, lng: 121.052124, zoom: 14, zoomControl : true,
+      el: '#map', lat: -41.290697, lng: 173.816266, zoom: 10, zoomControl : true,
       zoomControlOpt: { style : 'SMALL', position: 'TOP_LEFT' }, panControl : false, scrollwheel: false
    });
 
    // add address markers
-   map.addMarker({ lat: 14.552891, lng: 121.051815, title: 'Eco Tower',
-   infoWindow: { content: '<p>You can add your address 1 here</p>' } });
+   map.addMarker({ lat: -41.290697, lng: 173.816266, title: 'Tai Tane Pottery',
+   infoWindow: { content: '<p>Tai Tane Pottery</p>' } });
 
 /*----------------------------------------------------*/
 /*	contact form
