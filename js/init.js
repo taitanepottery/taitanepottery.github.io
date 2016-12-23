@@ -75,8 +75,17 @@
       return false;
 
    });
+$(window).load(function(){
+    $('img').on('click',function()
+                {
+                    console.log("pushed");
+                  console.log($(this).attr('src'));
+			$('#modal-img').attr('src', $(this).attr('src'));
+                  $('#modal-text').innerHTML="Whatever text!";
 
-
+                  $("#hider").click()
+                });
+});
 });
 
 

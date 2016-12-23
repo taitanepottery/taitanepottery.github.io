@@ -100,16 +100,16 @@ header.static {
 /* header logo */
 header .logo {
    position: relative;
-   height: 54px;
-   width: 150px;
+   height: 104px;
+   width: 300px;
    float: left;
 }
 header .logo a {
    display: block;
    padding: 0;
    margin: 0;
-   height: 18px;
-   width: 91px;
+   height: 180px;
+   width: 910px;
    line-height: 18px;
 
    position: absolute;
@@ -151,7 +151,7 @@ ul#nav li {
    display: inline-block;
 }
 ul#nav > li.active a {
-   background: #11ABB0;
+   background: #5eacda;
    color: #fff !important;
 }
 
@@ -173,7 +173,7 @@ ul#nav li a {
 
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li:hover > a,
-ul#nav li.active a { color: #11ABB0; }
+ul#nav li.active a { color: #5eacda; }
 
 
 
@@ -190,7 +190,7 @@ ul#nav li.active a { color: #11ABB0; }
 
 /* FlexSlider Intro Slider Styles */
 .slides {
-   max-height: 660px;
+   min-height: 500px;
    overflow: hidden;
 }
 .slider-text {
@@ -207,7 +207,7 @@ ul#nav li.active a { color: #11ABB0; }
    margin: 0;
 }
 .slider-text h2 span,
-.slider-text a { color: #11ABB0; }
+.slider-text a { color: #5eacda; }
 
 .slider-text p {
    font: 17px/36px opensans-light, sans-serif;
@@ -242,7 +242,7 @@ ul#nav li.active a { color: #11ABB0; }
 	transition: all 0.2s ease-in-out;
 }
 
-.flex-direction-nav a:hover { background-color: #11ABB0; }
+.flex-direction-nav a:hover { background-color: #5eacda; }
 
 .flex-direction-nav .flex-next {
 	right: 0px;
@@ -277,9 +277,9 @@ ul#nav li.active a { color: #11ABB0; }
 }
 
 #services a, #services a:visited  { color: #C4C4C4; }
-#services a:hover, #services a:focus { color: #11ABB0; }
+#services a:hover, #services a:focus { color: #5eacda; }
 
-#services .section-head h2 { color: #11ABB0; }
+#services .section-head h2 { color: #5eacda; }
 #services .section-head p.desc,
 #services .section-head .intro { color: #57606B; }
 
@@ -659,10 +659,10 @@ ul#nav li.active a { color: #11ABB0; }
 }
 
 #contact a, #contact a:visited  { color: #C4C4C4; }
-#contact a:hover, #contact a:focus { color: #11ABB0; }
+#contact a:hover, #contact a:focus { color: #5eacda; }
 
 #contact .section-head { margin-bottom: 42px; }
-#contact .section-head h2 { color: #11ABB0; }
+#contact .section-head h2 { color: #5eacda; }
 #contact .section-head p.desc,
 #contact .intro { color: #57606B; }
 #contact p {  }
@@ -695,14 +695,14 @@ ul#nav li.active a { color: #11ABB0; }
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: #5eacda;
 }
 #contact button.submit {
 	font: 18px/30px montserrat-bold, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color:#fff;
-	background: #11ABB0;
+	background: #5eacda;
    padding: 18px 30px;
 	border: none;
    cursor: pointer;
@@ -721,7 +721,7 @@ ul#nav li.active a { color: #11ABB0; }
 	background: #fff;
 }
 #contact span.required {
-	color: #11ABB0;
+	color: #5eacda;
 	font-size: 13px;
 }
 
@@ -733,7 +733,7 @@ ul#nav li.active a { color: #11ABB0; }
    width: 88%;
 }
 #message-warning { color: #D72828; }
-#message-success { color: #11ABB0; }
+#message-success { color: #5eacda; }
 
 #message-warning i,
 #message-success i {
@@ -751,7 +751,7 @@ ul#nav li.active a { color: #11ABB0; }
 #contact aside h3 {
    font: 21px/30px montserrat-bold, sans-serif;
    margin-bottom: 18px;
-   color: #11ABB0;
+   color: #5eacda;
 }
 
 
@@ -789,7 +789,7 @@ ul#nav li.active a { color: #11ABB0; }
 .post .post-meta a,
 .post .post-meta a:visited { color: #B9BBBC; }
 .post .post-meta a:hover,
-.post .post-meta a:focus { color: #11ABB0; }
+.post .post-meta a:focus { color: #5eacda; }
 
 .post .post-meta .date {
    margin-bottom: 18px;
@@ -877,7 +877,7 @@ ul#nav li.active a { color: #11ABB0; }
 .post .post-nav li strong {
    font: 15px/30px opensans-bold, sans-serif;
    text-transform: uppercase;
-   color: #11ABB0;
+   color: #5eacda;
    letter-spacing: 1px;
    display: block;
 }
@@ -1007,7 +1007,7 @@ ol.commentlist {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color:#fff;
-	background: #11ABB0;
+	background: #5eacda;
    padding: 18px 24px;
 	border: none;
    cursor: pointer;
@@ -1022,7 +1022,7 @@ ol.commentlist {
 }
 #comments form button.submit:hover { background: #3d4145; }
 #comments form span.required {
-	color: #11ABB0;
+	color: #5eacda;
 	font-size: 13px;
 }
 
@@ -1071,7 +1071,7 @@ ol.commentlist {
 #blog-entries .post .entry-header h1 a,
 #blog-entries .post .entry-header h1 a:visited { color: #313131; }
 #blog-entries .post .entry-header h1 a:hover,
-#blog-entries .post .entry-header h1 a:focus { color: #11ABB0; }
+#blog-entries .post .entry-header h1 a:focus { color: #5eacda; }
 
 #blog-entries .post .post-content p {
   font: 20px/36px opensans-light, sans-serif;
@@ -1097,7 +1097,7 @@ ol.commentlist {
    -khtml-border-radius: 2px;
 	border-radius: 2px;
 }
-#blog-entries .post-content a.more-link:hover { background: #11ABB0; }
+#blog-entries .post-content a.more-link:hover { background: #5eacda; }
 #blog-entries .post-content a.more-link i { margin-left: 10px; }
 
 /* Pagination */
@@ -1124,7 +1124,7 @@ ol.commentlist {
    display: inline;
    margin-right: 15px;
 }
-#bottom-block .blog-categories li.current a { color: #11ABB0; }
+#bottom-block .blog-categories li.current a { color: #5eacda; }
 #bottom-block .blog-categories a { color: #A0A6AB; }
 #bottom-block .blog-categories a:hover { color: #5B6167; }
 
@@ -1132,7 +1132,7 @@ ol.commentlist {
 #bottom-block .back-to-top a i { margin-left: 6px; }
 #bottom-block .back-to-top a {
    font: 14px/30px opensans-bold, sans-serif;
-   color: #11ABB0;
+   color: #5eacda;
 }
 
 
@@ -1288,7 +1288,7 @@ footer .social-links li:first-child { margin-left: 0; }
    -------------------------------------------------------------------- */
 
    header.mobile { height: 66px; }
-   header.mobile .logo a { top: 22px; }
+   header.mobile .logo a { top: 26px; }
 
    .mobile #nav-wrap {
       position: absolute;
@@ -1301,7 +1301,7 @@ footer .social-links li:first-child { margin-left: 0; }
 	   width: 48px;
 		height: 48px;
 		text-align: left;
-		background-color: #11ABB0;
+		background-color: #5eacda;
 		position: relative;
       border: none;
       float: right;
@@ -1341,7 +1341,7 @@ footer .social-links li:first-child { margin-left: 0; }
       text-align: left;
    }
    .mobile #nav-wrap ul#nav > li.active a {
-      color: #11ABB0 !important;
+      color: #5eacda !important;
       background: none;
    }
 
