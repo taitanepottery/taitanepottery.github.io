@@ -11,7 +11,10 @@ console.log(container);
 
 for (var i = 0, j = imgs.length; i < j; i++) {
   console.log("img");
+  var diver = document.createElement('div');
+  diver.className = "col portfolio-item";
     var img = document.createElement('img');
     img.src = imgs[i]; // img[i] refers to the current URL.
-    container.appendChild(img);
+    diver.appendChild(img);
+    container.appendChild(diver);
 }
