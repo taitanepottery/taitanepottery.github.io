@@ -32,3 +32,18 @@ for (var i = 0, j = 4; i < j; i++) {
     a_w.appendChild(img);
     wallArt.appendChild(div_w);
 }
+
+var container = document.getElementById('hanger-container');
+
+for (var i = 0, j = 5; i < j; i++) {
+  var diver = document.createElement('div');
+  var modalButton = document.createElement('a');
+  modalButton.setAttribute('href',"#hanger-container");
+  modalButton.className = "portfolio-button";
+  diver.className = "col portfolio-item";
+    var img = document.createElement('img');
+    img.src = "images/portfolio/hanger-" + String(i) + ".jpg"; // img[i] refers to the current URL.
+    diver.appendChild(modalButton);
+  modalButton.appendChild(img);
+    container.appendChild(diver);
+}
