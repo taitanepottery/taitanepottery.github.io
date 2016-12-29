@@ -341,13 +341,13 @@ ul#nav li.active a { color: #5eacda; }
 }
 .portfolio-item .item-wrap a {
   display: block;
-  height: 140px;
+  /*height: 100vw;*/
 }
-.portfolio-item .portfolio-button {
-  display: block;
-  height: 140px;
-  overflow: hidden;
-}
+/*.portfolio-item .portfolio-button {*/
+  /*display: block;*/
+  /*height: 100vw;*/
+  /*overflow: hidden;*/
+/*}*/
 .portfolio-item .portfolio-item-meta { padding: 12px 0; }
 .portfolio-item .portfolio-item-meta h5 a {
    font: 13px/24px montserrat-bold, sans-serif;
