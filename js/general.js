@@ -5,7 +5,7 @@
 
 var container = document.getElementById('raku-container');
 
-for (var i = 0, j = 5; i < j; i++) {
+for (var i = 0, j = 4; i < j; i++) {
   var diver = document.createElement('div');
   var modalButton = document.createElement('a');
   modalButton.setAttribute('href',"#raku-container");
@@ -35,7 +35,7 @@ for (var i = 0, j = 4; i < j; i++) {
 
 var container = document.getElementById('hanger-container');
 
-for (var i = 0, j = 5; i < j; i++) {
+for (var i = 0, j = 4; i < j; i++) {
   var diver = document.createElement('div');
   var modalButton = document.createElement('a');
   modalButton.setAttribute('href',"#hanger-container");

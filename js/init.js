@@ -78,8 +78,22 @@
 $(window).load(function(){
     $('.portfolio-button').on('click',function()
                 {
-                    console.log("pushed");
                   console.log($(this).find('img').attr('src'));
+			$('#modal-img').attr('src', $(this).find('img').attr('src'));
+                  $('#modal-text').innerHTML="Whatever text!";
+
+                  $("#hider").click()
+                });
+   $('#incrementer').on('click',function()
+                {
+                    console.log("pushed");
+                  console.log($('#modal-img').attr('src'));
+                  var imgName = $('#modal-img').attr('src');
+                  var imgNumber = parseInt(imgName.slice(-5,-4)) + 1;
+                  var newName = imgName.slice(0, -5) + String(imgNumber) + imgName.slice(-4);
+                  $('#modal-img').attr('src', newName);
+                  console.log(imgName.slice(-5,-4));
+
 			$('#modal-img').attr('src', $(this).find('img').attr('src'));
                   $('#modal-text').innerHTML="Whatever text!";
 
