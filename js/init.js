@@ -15,21 +15,6 @@
       controlNav: false,
    });
 
-/*----------------------------------------------------*/
-/*	gmaps
-------------------------------------------------------*/
-
-   var map;
-
-   // main directions
-   map = new GMaps({
-      el: '#map', lat: -41.290697, lng: 173.816266, zoom: 10, zoomControl : true,
-      zoomControlOpt: { style : 'SMALL', position: 'TOP_LEFT' }, panControl : false, scrollwheel: false
-   });
-
-   // add address markers
-   map.addMarker({ lat: -41.290697, lng: 173.816266, title: 'Tai Tane Pottery',
-   infoWindow: { content: '<p>Tai Tane Pottery</p>' } });
 
 /*----------------------------------------------------*/
 /*	contact form
