@@ -1,2 +1,2 @@
 # taitanepottery.github.io
-Tai Tane Pottery website
+Ceramics by Renate website
